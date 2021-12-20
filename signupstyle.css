@@ -1,0 +1,170 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    /*overflow: hidden;*/
+}
+
+.one {
+    display: flex;
+}
+
+.donner {
+    height: 580px;
+    width: 1022px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 0px 0px 0px 84px;
+}
+
+.donner1 {
+    height: 580px;
+    width: 601px;
+    background-image: linear-gradient(to bottom, #FF7790 0%, #803C48 100%);
+    border-radius: 10px;
+    margin: 0px 0px 0px -289px;
+}
+
+.donner1 input {
+    width: 450px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin: 35px 0px 0px 61px;
+    font-size: 18px;
+    padding-left: 20px;
+}
+
+.donner1 h1 {
+    padding: 10px 0px 0px 191px;
+    font-size: 30px;
+}
+
+.donner1 h3 a {
+    text-decoration: none;
+    color: white;
+}
+
+.donner1 h3 a:hover {
+    text-decoration-line: underline;
+}
+
+.donner1 #forget {
+    margin-top: 50px;
+    margin-left: 220px;
+}
+
+.btnlogin {
+    width: 350px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 132px;
+    margin-top: 30px;
+    border: white;
+    border-width: 5px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #F27188;
+}
+
+.donner img {
+    width: 70%;
+    height: 70%;
+    margin: 74px 0px 0px -49px;
+}
+
+
+/*------------------------MENU----------------------------------*/
+
+header {
+    margin: 20px 80px;
+}
+
+.menu {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.listmenu {
+    display: flex;
+    margin-left: 80px;
+    margin-top: 22px;
+}
+
+.listmenu li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+.listmenu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.listmenu li a:hover {
+    text-decoration-line: underline;
+}
+
+.listmenu li select {
+    font-size: 18px;
+    border: none;
+}
+
+.listmenu li select option a:hover {
+    text-decoration-line: underline;
+}
+
+.btn {
+    margin-left: 357px;
+    margin-top: 14px;
+}
+
+.btnsignup {
+    border: black;
+    border-radius: 5px;
+    padding: 10px 30px;
+    background-color: black;
+    color: #fff;
+    font-size: 18px;
+    margin-left: 30px;
+}
+
+
+/*-------------------------Footer---------------------------------*/
+
+footer {
+    width: 1340px;
+    height: 193px;
+    background-color: black;
+    margin-left: 80px;
+    margin-top: 50px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.footerliste {
+    display: flex;
+    margin: -180px 0px 0px 743px;
+}
+
+.footerliste ul {
+    list-style: none;
+}
+
+.footerliste ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.socialmedia {
+    font-size: 15px;
+    padding: 58px 0px 0px 107px;
+}
+
+.textfin {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 200px;
+}

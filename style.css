@@ -34,9 +34,17 @@ header {
     font-size: 18px;
 }
 
+.listmenu li a:hover {
+    text-decoration-line: underline;
+}
+
 .listmenu li select {
     font-size: 18px;
     border: none;
+}
+
+.listmenu li select option a:hover {
+    text-decoration-line: underline;
 }
 
 .btn {
